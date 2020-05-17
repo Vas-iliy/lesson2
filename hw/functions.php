@@ -51,6 +51,20 @@ function getArticles() : array{
 
     }
 
+    function logs () {
+        $dt = date('Y:m:d H:i:s');
+        $ide = $_SERVER['REMOTE_ADDR'];
+        $uri = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+        $referer = $_SERVER['HTTP_REFERER'];
+        $logi = [
+            'dt' => $dt,
+            'ide' => $ide,
+            'uri' => $uri,
+            'referer' => $referer
+        ];
+        return $logi;
+    }
+
 	    function saveArticles(array $articles) : bool
         {
             file_put_contents('db/articles.json', json_encode($articles));
