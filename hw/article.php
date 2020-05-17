@@ -6,10 +6,6 @@
 	$id = (int)($_GET['id']);
 	$post = $articles[$id];
 	$log = logs();
-	if ($log['referer'] == null) {
-	    $log['referer'] = '';
-    }
-
 
     $dir = 'logs'; // Директория для создания страниц
     $dt = date('Y:m:d');
@@ -22,15 +18,12 @@
         }
         fclose($fIn);
     } else {
-        $fI= fopen("$dir/$dt", 'r');
         foreach ( $log as $l ) {
-            fwrite($fI, $l);
+            file_put_contents("$dir/$dt", $l, FILE_APPEND);
         }
-        fclose($fI);
     }
 
 
-    //$fp = fopen("$dir/$dt", "w");
 
 
 

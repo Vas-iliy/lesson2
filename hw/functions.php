@@ -44,6 +44,7 @@ function getArticles() : array{
             'id' => $id,
             'title' => $title,
             'content' => $content
+
         ];
 
         saveArticles($articles);
@@ -57,11 +58,15 @@ function getArticles() : array{
         $uri = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
         $referer = $_SERVER['HTTP_REFERER'];
         $logi = [
-            'dt' => $dt,
-            'ide' => $ide,
-            'uri' => $uri,
-            'referer' => $referer
+            'dt' => $dt . ' && ',
+            'ide' => $ide. ' && ',
+            'uri' => $uri. ' && ',
+            'referer' => $referer,
+            'n' => "\n"
         ];
+        if ($logi['referer'] == null) {
+            $logi['uri'] = $uri;
+        }
         return $logi;
     }
 
