@@ -1,31 +1,13 @@
 <?php
 
-	include_once('functions.php');		
+	include_once('functions.php');
+	include_once ('logs.php');
 	$articles = getArticles();
 
 	$id = (int)($_GET['id']);
 	$post = $articles[$id];
-	$log = logs();
-
-    $dir = 'logs'; // Директория для создания страниц
-    $dt = date('Y:m:d');
-    $dt =str_replace(':', '-', $dt);
-
-    if (!file_exists("$dir/$dt")){ // Если файл не существует, то создаем
-        $fIn = fopen("$dir/$dt", 'w'); // Создаем файл
-        foreach ( $log as $l ) {
-            fwrite($fIn, $l);
-        }
-        fclose($fIn);
-    } else {
-        foreach ( $log as $l ) {
-            file_put_contents("$dir/$dt", $l, FILE_APPEND);
-        }
-    }
-
-
-
-
+	$l = logs();
+	$log = write($l);
 
 ?>
 <div class="content">

@@ -1,8 +1,12 @@
 <?php
 
-	include_once('functions.php');		
+	include_once('functions.php');
+	include_once ('logs.php');
+
 	if ($_GET) {
 	    $delete = removeArticle($_GET['id']);
+	    $l = logs();
+	    $log = write($l);
     }
 
 	if ($delete) {

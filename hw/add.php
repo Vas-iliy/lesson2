@@ -1,16 +1,24 @@
 <?php
 
 	include_once('functions.php');
+	include_once ('logs.php');
+
+        $l = logs();
+        $log = write($l);
+
 
     if ($_POST['set']) {
         $article = $_POST['article'];
         $content = $_POST['content'];
         $add = addArticle($article, $content);
-    }
-
-    if ($add) {
+        $l = addLogs($article, $content);
+        $log = write($l);
         header('Location:index.php');
     }
+
+
+
+
 
 ?>
 

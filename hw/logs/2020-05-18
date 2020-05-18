@@ -1,0 +1,48 @@
+2020:05:18 14:02:17 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=2 && http://php-lesson2/hw/
+2020:05:18 14:02:34 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=6 && http://php-lesson2/hw/index.php
+2020:05:18 14:02:37 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=6
+2020:05:18 14:33:05 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=1 && http://php-lesson2/hw/index.php
+2020:05:18 14:33:15 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=1
+2020:05:18 14:33:49 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 14:34:07 && 127.0.0.1 && http://php-lesson2/hw/add.php
+2020:05:18 14:34:27 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/add.php
+2020:05:18 14:38:20 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 14:38:32 && 127.0.0.1 && http://php-lesson2/hw/add.php
+2020:05:18 14:43:10 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 14:51:32 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/add.php
+Новая статья: новая статья 3 Текст статьи:ппп2020:05:18 14:53:21 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=9 && http://php-lesson2/hw/index.php
+2020:05:18 14:54:14 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=9 && http://php-lesson2/hw/index.php
+2020:05:18 14:54:25 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=9 && http://php-lesson2/hw/article.php?id=9
+2020:05:18 14:54:33 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=8 && http://php-lesson2/hw/index.php
+2020:05:18 14:54:36 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=8 && http://php-lesson2/hw/article.php?id=8
+2020:05:18 14:54:38 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=7 && http://php-lesson2/hw/index.php
+2020:05:18 14:54:40 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=7 && http://php-lesson2/hw/article.php?id=7
+2020:05:18 14:54:41 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=6 && http://php-lesson2/hw/index.php
+Новая статья: Новая статья lf $$ Текст статьи:еееf
+2020:05:18 15:01:21 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=6 && http://php-lesson2/hw/index.php
+2020:05:18 15:01:35 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=6 && http://php-lesson2/hw/index.php
+2020:05:18 15:01:37 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=6 && http://php-lesson2/hw/article.php?id=6
+2020:05:18 15:12:55 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 15:13:06 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/add.php
+Новая статья: Новая статья $$ Текст статьи:да да да
+2020:05:18 15:14:18 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 15:14:24 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/add.php
+Новая статья: Новая статья2 $$ Текст статьи:ааа
+Новая статья: Новая статья12 $$ Текст статьи:ff
+2020:05:18 15:15:58 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 15:16:46 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 15:16:52 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/add.php
+Новая статья: d $$ Текст статьи:ff
+2020:05:18 15:17:49 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/index.php
+2020:05:18 15:17:55 && 127.0.0.1 && http://php-lesson2/hw/add.php && http://php-lesson2/hw/add.php
+Новая статья: g $$ Текст статьи:ff
+2020:05:18 15:18:07 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=10 && http://php-lesson2/hw/index.php
+2020:05:18 15:18:10 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=10 && http://php-lesson2/hw/article.php?id=10
+2020:05:18 15:18:11 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=9 && http://php-lesson2/hw/index.php
+2020:05:18 15:18:12 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=9 && http://php-lesson2/hw/article.php?id=9
+2020:05:18 15:18:14 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=8 && http://php-lesson2/hw/index.php
+2020:05:18 15:18:16 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=8 && http://php-lesson2/hw/article.php?id=8
+2020:05:18 15:18:18 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=7 && http://php-lesson2/hw/index.php
+2020:05:18 15:18:19 && 127.0.0.1 && http://php-lesson2/hw/delete.php?id=7 && http://php-lesson2/hw/article.php?id=7
+2020:05:18 15:18:20 && 127.0.0.1 && http://php-lesson2/hw/article.php?id=6 && http://php-lesson2/hw/index.php
+Новая статья: Новая статья $$ Текст статьи:да
